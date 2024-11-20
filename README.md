@@ -36,7 +36,12 @@ Each page is designed for intuitive exploration, with dynamic navigation guiding
 
 ### Sigma Wireframes Link
 
+ [Click here](https://www.figma.com/design/7iwgXK58bUDRP6H8pd7MLt/Echoes-of-Palestine-Festival?node-id=0-1&t=YLCvMzMB9Yecfi0u-1)
 
 
+#
 
+### Brand Guidline link
+
+[Click here](https://drive.google.com/file/d/1I44u8T1bM_vqfSIsblFNI5eZIJWGlcxa/view?usp=sharing)
 
