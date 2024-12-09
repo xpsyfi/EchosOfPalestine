@@ -18,13 +18,12 @@ body {
 }
 
 .container {
-    width: 100%;
-    padding: 0 150px;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 0 10px;
     display: flex;
     flex-direction: column;
-    /* background-color:bisque; */
-    position: relative;
-    overflow: hidden;
+    background-color:bisque;
 }
 
 
@@ -32,7 +31,7 @@ header {
     color: #ffffff;
     background-color: rgb(255, 0, 0);
     padding: 10px 20px;
-    padding-right:0px;
+    padding-right:90px;
     margin-bottom: 0px;
     text-transform: uppercase;
     border-bottom: 2px solid #cccccc;
@@ -40,7 +39,7 @@ header {
     justify-content: space-between;
     position: relative;
     left: 500px;
-    top: 190px;
+    top: 290px;
     z-index: 11;
     width: fit-content;
     height: auto;
