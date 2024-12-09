@@ -18,13 +18,11 @@ body {
 }
 
 .container {
-    flex: 1;
     width: 100%;
     padding: 0 150px;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-    background-color:bisque;
+    /* background-color:bisque; */
     position: relative;
     overflow: hidden;
 }
