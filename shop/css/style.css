@@ -164,8 +164,20 @@ img {
     position: relative;
     z-index: 12;
     right: 0px;
-
   }
+
+.shopContainer {
+    background-color: bisque;
+}
+
+  .poster img{
+    width: 400px;
+    height: auto;
+    display: block;
+    position: relative;
+  }
+
+
 
   footer {
     color: #898989;
