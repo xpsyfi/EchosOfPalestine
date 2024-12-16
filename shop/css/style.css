@@ -29,18 +29,19 @@ h1 {
   }
 
   h2 {
+    color: rgb(34, 62, 36);
     font-size: 30px;
     font-weight: 600;
   }
   
   h3{
+    color: rgb(34, 62, 36);
     font-size: 20px;
     font-weight: 500;
   }
 
 /* ///////// header ////////*/
 
-/* ///////// header ////////*/
 
 .header {
   /* background-color:#00ffdd; */
@@ -188,45 +189,56 @@ h1 {
 /* ///////// MAIN ////////*/
 
 main {
-    flex: 1;
-    flex-direction: column;
-    /* background-color: rgb(253, 0, 0); */
-    margin-left: 230px;
-}
-main h2 {
-    font-size: 600em;
-}
-
-main h3 {
-    font-size: 40px;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: row;
+  margin-left: 350px;
+  /* max-height: 30vw; */
+  border-left: 2px solid #cccccc4a;
+  padding-bottom: 40px;
+  
 }
 
-  .introHeader {
-    /* background-color: #00fe3f; */
-    /* margin: 12px; */
-   
-  }
+main header {
+  display: flex;
+  position:relative;
+  flex-direction: column;
+  justify-content:center;
+  padding-right: 140px;
+}
 
-  .infoBody {
-    flex: 1;
-    /* background-color: #fe00fe; */
-    display: flex;
-    flex-direction: row;
-   
-  }
+main header h2, h3{
+  display: flex;
+  position: relative;
+  z-index: 6;
+}
 
-  #info {
-    /* background-color: #a6ff00; */
-    color: rgb(34, 62, 36);
-    padding: 10px;
-  }
+main header h1 {
+  font-size: 60px;
+  font-weight: 500;
+}
+ 
+.imgwrap {
+  /* background-color: aqua; */
+  display: flex;
+  position: relative;
+  flex: 1;
+  height: 40vw;
+  max-height: 900px;
+  color: rgb(34, 62, 36);
+  justify-content:left;
+  padding: 30px;
+}
 
-  #info h2 {
-    font-size: 3em;
 
-  }
-
-
+.imgwrap img {
+  position: absolute;
+  width: 100%;
+  max-width: 500px;
+  object-fit: contain;
+  margin: 0 auto;
+  bottom: 0px;
+}
 
   
 
