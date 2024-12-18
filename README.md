@@ -45,3 +45,6 @@ Each page is designed for intuitive exploration, with dynamic navigation guiding
 
 [Click here](https://drive.google.com/file/d/1I44u8T1bM_vqfSIsblFNI5eZIJWGlcxa/view?usp=sharing)
 
+### Sources
+
+https://css-tricks.com/zooming-images-in-a-grid-layout/
